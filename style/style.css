@@ -1,0 +1,51 @@
+body {
+  background-color: #637781 !important;
+}
+
+.flex {
+  display: flex;
+}
+
+.search-bar {
+  text-align: center;
+}
+
+.search-bar input {
+  border: 5px solid grey !important;
+  border-radius: 100%;
+  background-color: black;
+  text-align: center !important;
+  font-size: 2em;
+  color: #FFF;
+  margin: 20px !important;
+  padding: 5px;
+  height: 60px;
+  width: 50% !important;
+  align-items: center;
+}
+
+.list-group-item {
+  background-color: slategrey !important;
+  min-width: 400px;
+  max-height: 100px;
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #FF5733 !important;
+}
+
+.loading-cycle {
+  cursor: progress;
+}
+
+.detail-title {
+  background-color: slategrey;
+}
+
+.detail-description {
+  background-color: slategrey;
+  font-family: sans-serif;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
