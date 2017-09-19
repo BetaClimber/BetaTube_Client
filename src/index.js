@@ -19,7 +19,7 @@ class App extends Component {
       selectedVideo: null
     };
 
-    this.videoSearch('honnold van el cap');
+    this.videoSearch('Honnold Van El Cap');
   }
 
   videoSearch(term) {

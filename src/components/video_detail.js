@@ -24,6 +24,7 @@ const VideoDetail = ({ video }) => {
       </div>
       <div className="details">
         <div className="detail-title"><h3>{ imageTitle }</h3></div>
+        <hr/>
         <div className="detail-description">{ imageDesc }</div>
       </div>
     </div>
